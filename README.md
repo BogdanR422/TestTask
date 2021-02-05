@@ -3,15 +3,15 @@ QA Test Project
 
 # Installation and execution instructions
 
-Install Java
-Install Maven
-Download WebDrivers for Chrome and Firefox
+- Install Java
+- Install Maven
+- Download WebDrivers for Chrome and Firefox
 
-Open TestTask in an IDE (preferably IntelliJ IDEA)
-Open "(path-to-this-project)\TestTask\src\test\resources"
-Modify "path.chromedriver" (path to Chrome WebDriver) and "path.geckodriver" (path to Firefox WebDriver)
+1. Open TestTask in an IDE (preferably IntelliJ IDEA)
+2. Open "(path-to-this-project)\TestTask\src\test\resources"
+3. Modify "path.chromedriver" (path to Chrome WebDriver) and "path.geckodriver" (path to Firefox WebDriver)
 
-Open command line (Win + R -> "cmd" -> Enter)
-Type "cd (path-to-this-project)\TestTask" -> Enter
-Type "mvn clean test" -> Enter
-Once tests are done type "mvn allure:serve" -> Enter
+4. Open command line (Win + R -> "cmd" -> Enter)
+5. Type "cd (path-to-this-project)\TestTask" -> Enter
+6. Type "mvn clean test" -> Enter
+7. Once tests are done type "mvn allure:serve" -> Enter
