@@ -10,7 +10,6 @@ QA Test Project
 1. Open TestTask in an IDE (preferably IntelliJ IDEA)
 2. Open "(path-to-this-project)\TestTask\src\test\resources"
 3. Modify "path.chromedriver" (path to Chrome WebDriver) and "path.geckodriver" (path to Firefox WebDriver)
-<br>
 4. Open command line (Win + R -> "cmd" -> Enter)
 5. Type "cd (path-to-this-project)\TestTask" -> Enter
 6. Type "mvn clean test" -> Enter
