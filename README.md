@@ -8,7 +8,7 @@ QA Test Project
 \- Download WebDrivers for Chrome and Firefox<br>
 <br>
 1. Open TestTask in an IDE (preferably IntelliJ IDEA)
-2. Open "(path-to-this-project)\TestTask\src\test\resources"
+2. Go to "(path-to-this-project)\TestTask\src\test\resources"
 3. Modify "path.chromedriver" (path to Chrome WebDriver) and "path.geckodriver" (path to Firefox WebDriver)
 4. Open command line (Win + R -> "cmd" -> Enter)
 5. Type "cd (path-to-this-project)\TestTask" -> Enter
