@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -183,6 +184,10 @@ public class NewMedicationRequestPage extends BasePage{
     @Step("Click Ok button in Medication Request Saved popup")
     public void clickMedicationRequestSavedPopupOkButton() {
         WebElement okButton = mDriver.findElement(By.xpath("//div[@class='modal-dialog']//button[text()='Ok']"));
+
+        WebDriverWait wait = new WebDriverWait(mDriver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.elementToBeClickable(okButton));
+
         okButton.click();
     }
 }
